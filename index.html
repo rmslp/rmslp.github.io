@@ -2,11 +2,30 @@
 <html>
 <head>
 <title>rm_slp</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+
+    body{
+      margin: 0;
+      font-family: Garamond;
+      font-size: 17px;
+    }
+    
     #myVideo{
       position: fixed;
       right: 0;
       bottom: 0;
+      min-width: 50%;
+      min-height: 50%;
+    }
+    
+    .content {
+      position: fixed;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px;
     }
   </style>
 </head>
@@ -17,6 +36,7 @@
 
   <video autoplay muted loop id="myVideo">
     <source src="slider-wavy-pluto.mp4" type="video/mp4">
+    Browser does not support HTML5 video.
   </video>
   
 </body>
